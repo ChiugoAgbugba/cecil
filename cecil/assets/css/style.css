@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+}
+.header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.header p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.quote{
+    align-items: baseline;
+}
+
+
+.content{
+    color: white;
+    border-bottom: 2px solid gray;
+    text-align: justify;
+}
+.content h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.content p{
+    font-size: 15px;
+}
+
+.faqs{
+    color: white;
+    border-bottom: 2px solid gray;
+    display: flex;
+    text-align: justify;
+}
+.header-2{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.qus h3{
+    font-size: 15px;
+    font-weight: 600;
+}
+.qus p{
+    font-size: 15px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.footer nav a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: black;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: black;
+        height: 100vh;
+    }
+    .container{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid gray;
+        height: 100vh;
+    }
+    .header h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 80%;
+    }
+    .header p{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 90%;
+        font-weight: 200;
+    }
+    .quote{
+        align-items: baseline;
+    }
+    
+    
+    .content{
+        color: white;
+        border-bottom: 2px solid gray;
+        text-align: justify;
+    }
+    .content h2{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    
+    .faqs{
+        color: white;
+        border-bottom: 2px solid gray;
+        display: flex;
+        text-align: justify;
+    }
+    .header-2{
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50%;
+    }
+    .qus{
+        
+    }
+    .qus h3{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .qus p{
+        font-size: 15px;
+    }
+    
+    .footer{
+        color: white;
+        display: flex;
+    }
+    .footer nav a{
+        text-decoration: none;
+        color: white;
+    
+    }
+}
