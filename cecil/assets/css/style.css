@@ -1,72 +1,120 @@
 body{
     background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: block;
 }
 
 .container{
     color: white;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid gray;
+    display: block;
+    padding-left: 5%;
+    border-bottom: none;
+    display: block;
 }
+
+.header{
+    display: block;
+}
+
 .header h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 2.5rem;
 }
+
 .header p{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 200;
 }
 .quote{
-    align-items: baseline;
+    text-align: center;
+    padding: 5% 0;
+    display: block;
 }
 
 
 .content{
     color: white;
-    border-bottom: 2px solid gray;
+    border-bottom: none;
     text-align: justify;
+    font-size: 1.5rem;
+    padding: 5% 15%;
+    display: block;
 }
-.content h2{
+
+.why-cecil{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
 }
+
+.content h2{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
 .content p{
-    font-size: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    display: block;
 }
 
 .faqs{
     color: white;
-    border-bottom: 2px solid gray;
     display: flex;
     text-align: justify;
+    padding: 5% 15%;
+    justify-content: space-between;
 }
-.header-2{
-    display: flex;
+.header-2 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+}
+.qus{
+    text-align: justify;
+}
+.faq-header{
+    font-size: 2rem;
+    text-align: center;
+    display: block;
 }
 
-.qus h3{
-    font-size: 15px;
-    font-weight: 600;
+.question-header{
+    font-size: 1.5rem;
+    display: block;
+    font-weight: bold;
 }
-.qus p{
-    font-size: 15px;
+
+.faq-answer{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    display: block;
 }
 
 .footer{
     color: white;
-    display: flex;
-    align-items: center;
+    display: block;
+    text-align: center;
+    padding: 5% 15%;
 }
-.footer nav a{
+
+.footer-ctas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-ctas a{
     text-decoration: none;
     color: white;
-    border-radius: 5px;
+    border-radius: 5rem;
     border: none;
     padding: 0 20px;
+    background-color: gray;
 }
 
 @media screen and (min-width: 768px){
@@ -83,37 +131,55 @@ body{
     }
     .container{
         color: white;
-        display: flex;
-        justify-content: space-between;
+        display: block;
+        padding-left: 5%;
         border-bottom: 2px solid gray;
         height: 100vh;
     }
+
+    .header{
+        display: block;
+    }
+
     .header h1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 80%;
+        font-size: 1.8rem;
     }
     .header p{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 90%;
-        font-weight: 200;
+        font-size: 1.5rem;
+        font-weight: 150;
     }
     .quote{
-        align-items: baseline;
+        text-align: center;
+        padding: 5% 0;
+        display: block;
     }
-    
     
     .content{
         color: white;
         border-bottom: 2px solid gray;
         text-align: justify;
+        font-size: 1.8rem;
+        padding: 5% 15%;
+        display: block;
     }
-    .content h2{
+
+    .why-cecil{
         text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
+        font-size: 1.8rem;
     }
+
+    .content h2{
+        display: block;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+    }
+
     .content p{
-        font-size: 15px;
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        display: block;
     }
     
     .faqs{
@@ -121,30 +187,60 @@ body{
         border-bottom: 2px solid gray;
         display: flex;
         text-align: justify;
+        padding: 5% 15%;
+        justify-content: space-between;
     }
-    .header-2{
-        display: flex;
+
+    .header-2 h1{
+        display: block;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 50%;
+        font-size: 1rem;
+        text-align: left;
     }
+
     .qus{
-        
+       text-align: justify; 
     }
-    .qus h3{
-        font-size: 15px;
-        font-weight: 600;
+
+    .faq-header{
+        font-size: 1.8rem;
+        text-align: center;
+        display: block;
     }
-    .qus p{
-        font-size: 15px;
+
+    .question-header{
+        font-size: 1.5rem;
+        display: block;
+        font-weight: bold;
     }
     
+    .faq-answer{
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        display: block;
+    }
+
     .footer{
         color: white;
-        display: flex;
+        display: block;
+        text-align: center;
+        padding: 5% 15%;
     }
-    .footer nav a{
+
+    .footer-ctas{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-ctas a{
         text-decoration: none;
         color: white;
-    
+        border-radius: 5rem;
+        border: none;
+        padding: 0 20px;
+        background-color: gray;
+        align-self: center;
     }
 }
